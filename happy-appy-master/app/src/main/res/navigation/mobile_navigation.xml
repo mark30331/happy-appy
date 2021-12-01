@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.happy_appy.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_preset1"
+        android:name="com.example.happy_appy.ui.presets.Preset1Fragment"
+        android:label="@string/menu_preset1"
+        tools:layout="@layout/preset1_fragment" />
+
+    <fragment
+        android:id="@+id/nav_preset2"
+        android:name="com.example.happy_appy.ui.presets.Preset2Fragment"
+        android:label="@string/menu_preset2"
+        tools:layout="@layout/preset2_fragment" />
+
+    <fragment
+        android:id="@+id/nav_preset3"
+        android:name="com.example.happy_appy.ui.presets.Preset3Fragment"
+        android:label="@string/menu_preset3"
+        tools:layout="@layout/preset3_fragment" />
+
+    <fragment
+        android:id="@+id/menu_build"
+        android:name="com.example.happy_appy.ui.presets.BuildFragment"
+        android:label="@string/menu_build"
+        tools:layout="@layout/build_fragment" />
+
+    <fragment
+        android:id="@+id/nav_music"
+        android:name="com.example.happy_appy.ui.music.MusicFragment"
+        android:label="@string/menu_music"
+        android:layout="@layout/music_fragment" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.example.happy_appy.ui.tools.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_tools" />
+    <fragment
+        android:id="@+id/emote_first_aid"
+        android:name="com.example.happy_appy.ui.EmoteFragment"
+        android:label="@string/first_aid"
+        tools:layout="@layout/emote_fragment" />
+
+</navigation>

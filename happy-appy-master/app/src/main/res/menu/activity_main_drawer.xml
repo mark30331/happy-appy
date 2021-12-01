@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_preset1"
+            android:icon="@drawable/baseline_calendar_today_24"
+            android:title="@string/menu_preset1" />
+        <item
+            android:id="@+id/nav_preset2"
+            android:icon="@drawable/baseline_calendar_today_24"
+            android:title="@string/menu_preset2" />
+        <item
+            android:id="@+id/nav_preset3"
+            android:icon="@drawable/baseline_calendar_today_24"
+            android:title="@string/menu_preset3" />
+        <item
+            android:id="@+id/menu_build"
+            android:icon="@drawable/baseline_calendar_today_24"
+            android:title="@string/menu_build" />
+        <item
+            android:id="@+id/nav_music"
+            android:icon="@drawable/baseline_library_music_24"
+            android:title="@string/menu_music" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_tools" />
+        <item
+            android:id="@+id/emote_first_aid"
+            android:icon="@drawable/baseline_sentiment_very_dissatisfied_24"
+            android:title="@string/emote_first_aid" />
+    </group>
+
+
+
+</menu>
